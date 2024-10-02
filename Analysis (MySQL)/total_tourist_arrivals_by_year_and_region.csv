@@ -1,0 +1,58 @@
+Total tourist arrivals by year and region:
+
+Year,Region,Total_Arrivals
+2018,Zakopane,2972156
+2018,Szczecin,2925949
+2018,Gdańsk,2922801
+2018,Wrocław,2893938
+2018,Kraków,2780391
+2018,Łódź,2666358
+2018,Poznań,2621866
+2018,Warsaw,2602786
+2019,Zakopane,2994514
+2019,Warsaw,2992929
+2019,Łódź,2698676
+2019,Wrocław,2697979
+2019,Kraków,2682637
+2019,Gdańsk,2651505
+2019,Szczecin,2646134
+2019,Poznań,2606216
+2020,Szczecin,3038490
+2020,Wrocław,2997472
+2020,Gdańsk,2928908
+2020,Kraków,2825983
+2020,Warsaw,2798830
+2020,Łódź,2692482
+2020,Poznań,2689252
+2020,Zakopane,2677530
+2021,Zakopane,2820746
+2021,Szczecin,2747489
+2021,Warsaw,2726397
+2021,Kraków,2630602
+2021,Gdańsk,2597279
+2021,Poznań,2586022
+2021,Wrocław,2526724
+2021,Łódź,2386272
+2022,Zakopane,2972876
+2022,Łódź,2801594
+2022,Wrocław,2797864
+2022,Gdańsk,2695015
+2022,Kraków,2656268
+2022,Szczecin,2651761
+2022,Warsaw,2645104
+2022,Poznań,2633821
+2023,Łódź,2985815
+2023,Poznań,2839586
+2023,Wrocław,2836982
+2023,Zakopane,2831662
+2023,Gdańsk,2817204
+2023,Kraków,2746260
+2023,Szczecin,2739216
+2023,Warsaw,2685355
+----------------------------------------------------------------
+Data extracted by using the following query:
+
+SELECT Year, Region, SUM(Tourist_Arrivals) AS Total_Arrivals
+FROM tourism_stats
+GROUP BY Year, Region
+ORDER BY Year, Total_Arrivals DESC;

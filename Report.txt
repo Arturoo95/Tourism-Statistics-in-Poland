@@ -1,0 +1,120 @@
+Tourism Statistics Report: Poland (2018–2023)
+
+Executive Summary
+
+This report provides a detailed analysis of tourism statistics in Poland between 2018 and 2023. It examines tourist arrivals by region and origin, as well as average spending based on the purpose of visit. These insights are based on the aggregated data that was analyzed using tools like Python, MySQL, and Tableau to deliver meaningful insights into the current trends of tourism in Poland.
+
+------ Key Insights from data received in mySQL ------ ### See "Analysis (MySQL)" folder ###
+
+1) Total Tourist Arrivals by Year and Region (2018-2023) -----
+
+The number of tourist arrivals has seen a steady recovery after a dip in 2021 due to the pandemic.
+The most popular regions over the years have been Zakopane, Szczecin, Wrocław, and Gdańsk, which consistently received over 2.5 million tourists annually.
+In 2023, Łódź experienced the largest number of tourist arrivals, with 2,985,815 tourists.
+
+Interpretation: Tourist arrivals in Zakopane and other prominent regions saw a steady increase over the years, with some fluctuation due to the COVID-19 pandemic in 2020 and 2021.
+
+2) Top 5 Tourist Origins by Region in 2023 ------
+
+In 2023, the top five tourist origins across different regions were dominated by China, Spain, and Germany.
+China was the leading origin for tourists in Gdańsk, Szczecin, Łódź, and Zakopane.
+Spain and USA ranked highly as popular origins for tourists visiting Warsaw and Kraków.
+
+Interpretation: The influx of tourists from China has been significant, reflecting Poland's increasing popularity as a destination for Asian tourists. Spain and Germany are also important markets, especially in Warsaw and Kraków.
+
+3) Average Spending by Purpose of Visit ------
+
+Tourists visiting Poland for leisure spend an average of €176, which is the highest across all categories.
+Tourists visiting for family reasons spend slightly less, averaging €174, while business travelers spend around €171.
+Visitors coming for educational purposes have the lowest average spending at €169.
+
+Interpretation: Tourists who visit Poland for leisure tend to spend more on average compared to those coming for business or educational purposes, highlighting the importance of leisure tourism to the Polish economy.
+
+
+----- Trends and Observations ------
+
+Tourist Growth: There is a consistent increase in tourist numbers post-pandemic, particularly in the Zakopane and Łódź regions.
+
+Spending Patterns: Leisure and family tourism represent the most valuable segments, suggesting opportunities for targeted marketing and promotion.
+
+Origins of Tourists: Chinese tourists constitute a large share of visitors, particularly in coastal and mountain regions. This points to the need for tailored services and promotions in these areas.
+Seasonality: Tourist arrivals tend to peak during the summer months, especially in coastal cities like Gdańsk and mountain regions like Zakopane.
+
+
+----- Recommendations ------
+
+Promotion of Key Destinations: Increasing promotional efforts in major regions such as Zakopane, Szczecin, and Warsaw could help boost tourist numbers even further.
+
+Target High-Spend Visitors: Focus marketing efforts on leisure tourists and tourists from China, as these groups represent the largest economic impact.
+
+Enhance Infrastructure: To accommodate the influx of visitors, further investments in tourism infrastructure, particularly in Łódź and Zakopane, are recommended.
+
+
+----- Key Insights from data received in Tableau ----- ### See "Analysis (Tableau)" folder ###
+
+1) Average Spend by Purpose of Visit -----
+
+Chart Type: Stacked Bar Chart
+
+Purpose: This chart shows the total average spend for different purposes of visit (Business, Education, Leisure, Visiting Family) from 2018 to 2023.
+
+Insights:
+The total spend is fairly consistent across all purposes, with slight increases in Education and Leisure over the years.
+"Visiting Family" and "Leisure" show the highest average spending, while "Business" and "Education" exhibit slightly lower spending.
+
+Actionable Conclusion: Marketing campaigns and services can be tailored for tourists visiting for leisure and family purposes, as they are likely to spend more.
+
+2) Average Spend vs Nights Spent -----
+
+Chart Type: Scatter Plot
+
+Purpose: This chart demonstrates the relationship between average spending and the number of nights spent, categorized by the purpose of visit.
+
+Insights:
+The correlation suggests that longer stays (higher nights spent) are linked with higher average spending for visitors coming for "Visiting Family" and "Leisure."
+
+"Education" and "Business" visits show fewer nights spent and lower average spending in comparison.
+
+Actionable Conclusion: Tourism packages encouraging extended stays for leisure and family purposes could increase tourist revenue.
+
+3) Distribution of Tourist Arrivals by Origin -----
+
+Chart Type: Pie Chart
+
+Purpose: This chart depicts the total number of tourist arrivals, broken down by origin (country), across different years.
+Insights:
+
+Significant contributions come from Germany, the UK, and China, with China having a notable presence in Gdańsk and Łódź.
+Spain and Ukraine also show meaningful contributions in particular regions.
+
+Actionable Conclusion: Targeted marketing strategies can focus on countries contributing the most to tourist arrivals (e.g., China, Spain, and Germany) to maintain and increase these numbers.
+
+4) Seasonal Tourist Arrivals (Month vs Region) -----
+
+Chart Type: Heat Map
+
+Purpose: This chart illustrates the number of tourist arrivals by month across different regions of Poland.
+
+Insights:
+Summer months (July–August) witness the highest tourist arrivals across all regions, especially in coastal cities like Gdańsk.
+Winter months see slightly fewer arrivals, with Zakopane standing out as a popular winter destination.
+
+Actionable Conclusion: Promotional campaigns during summer months should focus on beach and city tourism, while winter promotions should emphasize ski and mountain tourism in regions like Zakopane.
+
+5) Tourist Arrivals Over Time (Year vs Tourist Arrivals) -----
+
+Chart Type: Line Chart
+
+Purpose: This chart shows the total number of tourist arrivals over time from 2018 to 2023.
+
+Insights:
+Tourist arrivals dipped during 2021, likely due to the pandemic, but have since rebounded strongly in 2022 and 2023.
+The overall trend is positive, showing an increasing number of tourists visiting Poland year over year.
+Actionable Conclusion: The resurgence in tourism post-pandemic indicates a strong recovery. Continued focus on international marketing and infrastructure development could further accelerate growth.
+
+
+----- Conclusion ------
+
+Tourism in Poland is recovering well from the pandemic, with significant growth in regions like Zakopane and Łódź. 
+
+The country continues to attract visitors from a diverse range of countries, with China emerging as a key source market. Going forward, targeting high-value segments such as leisure tourists will be key to maximizing tourism revenue.

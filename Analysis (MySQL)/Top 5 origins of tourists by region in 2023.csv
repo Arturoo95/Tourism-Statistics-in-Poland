@@ -1,0 +1,18 @@
+Top 5 origins of tourists by region in 2023:
+
+Origin,Region,Total_Arrivals
+China,Gdańsk,440629
+China,Szczecin,422472
+Spain,Warsaw,414139
+China,Łódź,402490
+China,Zakopane,394840
+
+----------------------------------------------------------------
+Data extracted by using the following query:
+
+SELECT Origin, Region, SUM(Tourist_Arrivals) AS Total_Arrivals
+FROM tourism_stats
+WHERE Year = 2023
+GROUP BY Origin, Region
+ORDER BY Total_Arrivals DESC
+LIMIT 5;
